@@ -1,0 +1,15 @@
+# No subir credenciales ni datos
+.env
+data/
+*.parquet
+*.csv
+
+# Archivos temporales
+__pycache__/
+.ipynb_checkpoints/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+
