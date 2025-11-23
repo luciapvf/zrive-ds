@@ -1,0 +1,9 @@
+import pandas as pd
+
+# Si ya tienes un DataFrame (ej: del parquet)
+df = pd.read_parquet('module_4/data/feature_frame.parquet')
+
+# Guardarlo como CSV
+df.to_csv('feature_frame.csv', index=False)
+
+print("✅ CSV creado exitosamente")
